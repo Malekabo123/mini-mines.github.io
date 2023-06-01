@@ -1,1 +1,1 @@
-Tic Tac Toe game in which I practiced Javascript and jQuery
+Mines game in which I practiced Javascript and jQuery

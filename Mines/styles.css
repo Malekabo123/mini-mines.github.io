@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    height: 500px;
+}
+
+.cell{
+    background-color: rgb(7, 177, 32);
+    border: 1px solid rgb(219, 192, 192);
+}
+
+.cell:nth-child(2n){
+    background-color: rgb(137, 198, 146);
+}
+
+.cell:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.trap{
+    background-color: red;
+    border: 1px solid rgb(219, 192, 192);
+}
+
+.empty{
+    background-color: white;
+    border: 1px solid rgb(219, 192, 192);
+}
+
+.cell span{
+    opacity: 0;
+}

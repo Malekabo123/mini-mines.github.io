@@ -1,1 +1,1 @@
-# mini-mines.github.io
+Tic Tac Toe game in which I practiced Javascript and jQuery
